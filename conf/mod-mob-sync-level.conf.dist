@@ -1,0 +1,20 @@
+#
+# Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
+#
+
+[worldserver]
+
+# ###########################################################
+# mod-levelsync configuration
+# ###########################################################
+
+LevelSync.Enable = 1
+
+# If creature level <= player level - threshold → sync up
+LevelSync.SyncUpThreshold = 5
+
+# If creature level >= player level + threshold → drop to template minlevel
+LevelSync.DropThreshold = 5
+
+# Debug logging
+LevelSync.Debug = 0
