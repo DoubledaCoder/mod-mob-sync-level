@@ -11,7 +11,7 @@ public:
     // Unit Hook
     void OnDamage(Unit* attacker, Unit* victim, uint32& damage);
     void OnUnitEnterCombat(Unit* unit, Unit* victim);
-    void OnUnitStopCombat(Unit* unit);
+    void OnUnitExitCombat(Unit* unit);
     // Configuration loader
     static void LoadConfig();
 

@@ -34,7 +34,7 @@ void LevelSync::OnDamage(Unit* attacker, Unit* victim, uint32& damage)
     LevelSync::DetermineCreature(attacker,victim);
 }
 
-void LevelSync::OnUnitStopCombat(Unit* unit){
+void LevelSync::OnUnitExitCombat(Unit* unit){
     Creature* creature = unit->ToCreature();
     //Creature object
     if(!creature){
